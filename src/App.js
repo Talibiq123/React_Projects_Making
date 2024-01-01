@@ -1,10 +1,10 @@
 import './App.css';
-import Accordian from './001_Accordian/Components/Accordian';
+import Accordion from './Components/001_Accordian/Accordian';
 
 function App() {
   return (
     <div >
-    <Accordian />
+      <Accordion />
     </div>
   );
 }
