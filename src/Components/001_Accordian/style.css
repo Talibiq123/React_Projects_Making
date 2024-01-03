@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    flex-direction: column;
 }
 
 .item{
@@ -24,4 +25,10 @@
 
 .mid{
     text-align: center;
+}
+
+.wrapper button{
+    padding: 10px;
+    background: white;
+    color: black;
 }
