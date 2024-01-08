@@ -1,6 +1,8 @@
 import "./App.css";
+import TreeView from "./Components/005_Tree_View/TreeView";
+import {menus} from "./Components/005_Tree_View/data";
 // import ImageSlider from "./Components/004_Image_Slider/ImageSlider";
-import LoadMore from "./Components/005_Load_More_Data/LoadMore";
+// import LoadMore from "./Components/005_Load_More_Data/LoadMore";
 // import StarRating from './Components/003_Star_Rating/StarRating';
 // import RandomColor from './Components/002_Random_Color_Generator/RandomColor';
 // import Accordion from './Components/001_Accordian/Accordian';
@@ -25,7 +27,11 @@ function App() {
 
 
       {/* Load More Data */}
-      <LoadMore />
+      {/* <LoadMore /> */}
+
+
+      {/* Tree View Components */}
+      <TreeView menus={menus}/>
     </div>
   );
 }
