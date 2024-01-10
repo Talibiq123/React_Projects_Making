@@ -1,6 +1,7 @@
 import "./App.css";
-import TreeView from "./Components/005_Tree_View/TreeView";
-import {menus} from "./Components/005_Tree_View/data";
+import LightDarkMode from "./Components/007_Light_Dark_Mode/LightDarkMode";
+// import TreeView from "./Components/005_Tree_View/TreeView";
+// import {menus} from "./Components/005_Tree_View/data";
 // import ImageSlider from "./Components/004_Image_Slider/ImageSlider";
 // import LoadMore from "./Components/005_Load_More_Data/LoadMore";
 // import StarRating from './Components/003_Star_Rating/StarRating';
@@ -31,7 +32,10 @@ function App() {
 
 
       {/* Tree View Components */}
-      <TreeView menus={menus}/>
+      {/* <TreeView menus={menus}/> */}
+
+      {/* Light Dark Theme */}
+      <LightDarkMode />
     </div>
   );
 }
