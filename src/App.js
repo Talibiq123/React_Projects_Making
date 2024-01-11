@@ -1,5 +1,6 @@
 import "./App.css";
-import LightDarkMode from "./Components/007_Light_Dark_Mode/LightDarkMode";
+import ScrollIndicator from "./Components/008_Scroll_Indicator/ScrollIndicator";
+// import LightDarkMode from "./Components/007_Light_Dark_Mode/LightDarkMode";
 // import TreeView from "./Components/005_Tree_View/TreeView";
 // import {menus} from "./Components/005_Tree_View/data";
 // import ImageSlider from "./Components/004_Image_Slider/ImageSlider";
@@ -35,7 +36,10 @@ function App() {
       {/* <TreeView menus={menus}/> */}
 
       {/* Light Dark Theme */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+      {/*Scroll Indicator  */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
 }
