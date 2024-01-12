@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// import "./scroll.css";
+import "./scroll.css";
 
 export default function ScrollIndicator({ url }) {
   const [data, setData] = useState([]);
