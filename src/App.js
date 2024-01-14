@@ -1,5 +1,5 @@
 import "./App.css";
-import ScrollIndicator from "./Components/008_Scroll_Indicator/ScrollIndicator";
+// import ScrollIndicator from "./Components/008_Scroll_Indicator/ScrollIndicator";
 // import LightDarkMode from "./Components/007_Light_Dark_Mode/LightDarkMode";
 // import TreeView from "./Components/005_Tree_View/TreeView";
 // import {menus} from "./Components/005_Tree_View/data";
@@ -39,7 +39,10 @@ function App() {
       {/* <LightDarkMode /> */}
 
       {/*Scroll Indicator  */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* Tab Bar */}
+      ReactJS 
     </div>
   );
 }
