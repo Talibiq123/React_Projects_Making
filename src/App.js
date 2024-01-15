@@ -1,4 +1,5 @@
 import "./App.css";
+import TabTest from "./Components/009_Custom_Tabs/TabsTest";
 // import ScrollIndicator from "./Components/008_Scroll_Indicator/ScrollIndicator";
 // import LightDarkMode from "./Components/007_Light_Dark_Mode/LightDarkMode";
 // import TreeView from "./Components/005_Tree_View/TreeView";
@@ -41,8 +42,8 @@ function App() {
       {/*Scroll Indicator  */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
-      {/* Tab Bar */}
-      ReactJS 
+      {/* Custom tabs component */}
+      <TabTest /> 
     </div>
   );
 }
