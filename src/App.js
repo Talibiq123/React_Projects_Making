@@ -1,10 +1,11 @@
+import React from "react";
 import "./App.css";
-import FormOne from "./Components/000_GFG/001_Forms/FormOne";
+import LogInSignUp from "./Components/021-LogIn-SignUp/LogInSignUp";
 
 function App() {
   return (
     <div>
-      <FormOne />
+      <LogInSignUp />
     </div>
   );
 }
