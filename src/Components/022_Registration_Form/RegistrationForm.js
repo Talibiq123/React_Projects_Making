@@ -62,6 +62,20 @@ function RegistrationForm() {
                 <input type='file'  />
             </div>
             <div className='input-box'>
+                <label>Enter URL*</label>
+                <input type='url' placeholder='Enter Url' />
+            </div>
+            <div className='input-box'>
+                <label>Select your choice</label>
+                <select id="options" name="options">
+                    <option value="op1">Select your Ans</option>
+                    <option value="op1">Optionn 1</option>
+                    <option value="op2">Optionn 2</option>
+                    <option value="op3">Optionn 3</option>
+                    <option value="op4">Optionn 4</option>
+                </select>
+            </div>
+            <div className='input-box'>
                 <label>About</label>
                 <textarea id='comments' name='comments' placeholder='Enter your comments here' rows='12' cols='50'/>
             </div>
