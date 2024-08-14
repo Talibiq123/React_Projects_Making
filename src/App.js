@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import LogInSignUp from "./Components/021-LogIn-SignUp/LogInSignUp";
+import RegistrationForm from "./Components/022_Registration_Form/RegistrationForm";
 
 function App() {
   return (
     <div>
-      <LogInSignUp />
+      <RegistrationForm />
     </div>
   );
 }

@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.registraion {
+    max-width: 600px;
+    width: 100%;
+    min-height: calc(100vh - 1rem);
+    border-radius: 1rem;
+    background: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+                0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+    margin-bottom: 1rem; /* Add space below the heading */
+    text-align: center;
+    width: 100%;
+    color: #367d3c; /* Align heading to the left */
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.input-box {
+    width: 100%; /* Ensure input box takes full width of the container */
+    margin-bottom: 1rem; /* Add space below each input box */
+}
+
+.input-box label {
+    display: block; /* Make label a block element to start from a new line */
+    margin-bottom: 0.5rem; /* Add space below the label */
+}
+
+.input-box input {
+    width: 100%; /* Make input field take full width of its container */
+    padding: 0.5rem; /* Add padding inside the input field */
+    border: 1px solid #ccc; /* Add border to the input field */
+    border-radius: 0.25rem; /* Add border-radius to the input field */
+}
+
+/* Container styling */
+.radio-button {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 3rem; /* Space between radio buttons */
+}
+
+/* Styling for individual labels */
+.radio-button label {
+    display: flex;
+    align-items: center; /* Align radio button with text */
+    font-size: 1rem; /* Font size for labels */
+}
+
+/* Styling for radio buttons */
+.radio-button input[type="radio"] {
+    margin-right: 0.5rem; /* Space between radio button and label text */
+}
+
+.subject {
+    margin-bottom: 1rem;
+}
+
+.checkbox-group {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 3rem;
+    margin-bottom: 1rem;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center; /* Align radio button with text */
+    font-size: 1rem; 
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.input-box textarea {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+button {
+    padding: 1rem 5rem;
+    border-radius: 0.75rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #367d3c;
+    color: white;
+}
